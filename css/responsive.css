@@ -1,0 +1,157 @@
+@media screen and (max-width: 900px) {
+    .sideBar {
+        padding: 10px;
+    }
+    .sideBar nav > div {
+        justify-content: center;
+    }
+    .sideBar nav p {
+        text-align: center;
+    }
+
+    .sideBar nav div ul li a {
+        justify-content: center;
+    }
+
+    .sideBar nav div ul li a span {
+        display: none;
+    }
+
+    .rightSec .topBar .hmSr .hmbrg {
+        display: block;
+    }
+    .rightSec .dashPart>.row .col-md-5, .rightSec .dashPart>.row .col-md-7 {
+        width: 100%;
+    }
+    .rightSec .dashPart>.row .col-md-5, .rightSec .dashPart>.row .col-md-5 {
+        width: 100%;
+    }
+    .rightSec .dashPart>.row .col-md-5 > .row
+    {
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .rightSec .dashPart>.row .col-md-5 > .row .recAct
+    {
+        width: 38%;
+    }
+    .rightSec .dashPart>.row .col-md-5  > .row .upSch 
+    {
+        width: 58%;
+    }
+    .rightSec .dashPart .annc
+    {
+        margin-top: 0;
+    }
+    .rightSec .dashPart>.row .col-md-5 .row .recAct .RaB p:last-child
+    {
+        flex-wrap: wrap;
+    }
+    .rightSec .dashPart>.row .col-md-5 .row .recAct .RaB p:last-child span 
+    {
+        font-size: 1.5vw;
+        padding-bottom: 10px;
+        width: 100%;
+        
+    }
+    .rightSec .dashPart>.row .col-md-5 .row .upSch .annc .anncList
+    {
+        max-height: 180px
+    }
+    .rightSec .dashPart>.row .col-md-5 .row .recAct .RaB p:last-child button
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sideBar {
+        width: 100%;
+        z-index: 10;
+        left:-100%
+    }
+
+    .sideBar nav div ul li a span {
+        display: block;
+    }
+    .sideBar nav div ul li a span{
+        font-size: 3vw;
+    }
+    .rightSec{
+        width: 100%;
+        left: 0;
+    }
+    .rightSec .topBar {
+        gap: 40px;
+    }
+    .rightSec .dashPart>.row .col-md-7 .numbSec .col-4
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .rightSec .dashPart>.row .col-md-7 .grpSec .col-6
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .rightSec .topBar .hmSr .srchBar {
+        padding: 0px 5px;
+        width: 30px;
+        position: relative;
+        background: white;
+        border: 0;
+    }
+
+    .rightSec .topBar .hmSr .srchBar.active{
+        width: 140px;
+        border: 1px solid #E0E0E0;
+        background: #FAFAFA;
+    }
+
+    .rightSec .topBar .hmSr .srchBar svg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .rightSec .topBar .notBar {
+        width: 105px;
+        gap: 15px;
+    }
+
+    .rightSec .topBar .notBar .prof .profOpt p span {
+        display: none;
+    }
+    .rightSec .topBar .notBar .prof
+    {
+        gap: 10px;
+    }
+    .rightSec .dashPart>.row .col-md-5 > .row .recAct
+    {
+        width: 100%;
+    }
+    .rightSec .dashPart>.row .col-md-5  > .row .upSch 
+    {
+        width: 100%;
+    }
+    .rightSec .dashPart .chartSection .col-md-6
+    {
+        width: 100%;
+    }
+    .rightSec .dashPart>.row .col-md-5
+    {
+        padding-left: 0;
+    }
+    .rightSec .dashPart>.row .col-md-5 .row .recAct .RaB p:last-child span
+    {
+        font-size: 2.5vw;
+    }
+    .rightSec .dashPart > .row:nth-of-type(2) > .col-md-6 > div:first-child
+    {
+        margin-bottom: 0;
+    }
+    .rightSec .dashPart > .row:nth-of-type(2) > .col-md-6:nth-child(2) > div:first-child
+    {
+        margin-top: 0;
+    }
+}
